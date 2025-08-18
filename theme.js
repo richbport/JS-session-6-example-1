@@ -1,7 +1,7 @@
 let themeSelect = document.getElementById("theme");
 
 // load saved theme preference
-let savedTheme = localStorage.getItem("theme")
+let savedTheme = localStorage.getItem("theme");
 if (savedTheme) {
   themeSelect.value = savedTheme;
   document.body.classList.toggle("dark", savedTheme === "dark");
@@ -13,4 +13,4 @@ themeSelect.addEventListener("change", function () {
   localStorage.setItem("theme", selectedTheme);
   document.body.classList.toggle("dark", savedTheme === "dark");
   alert("Theme preference saved!");
-})
+});
