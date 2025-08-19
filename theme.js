@@ -11,6 +11,6 @@ if (savedTheme) {
 themeSelect.addEventListener("change", function () {
   let selectedTheme = themeSelect.value;
   localStorage.setItem("theme", selectedTheme);
-  document.body.classList.toggle("dark", savedTheme === "dark");
+  document.body.classList.toggle("dark", selectedTheme === "dark");
   alert("Theme preference saved!");
 });
