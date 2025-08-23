@@ -13,12 +13,12 @@ body.dark {
 .container {
   max-width: 600px;
   margin: 50px auto;
-  padding: 20px;
+  padding: 16px;
   text-align: center;
 }
 
 select {
-  padding: 10px;
+  padding: 8px;
   font-size: 16px;
-  margin-top: 20px;
+  margin-top: 24px;
 }
